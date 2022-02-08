@@ -36,3 +36,6 @@ jobs:
           ls -a
           echo finish...!
           echo finish testing.
+      - name: Step final
+        run: |    
+          echo All done
